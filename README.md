@@ -12,7 +12,7 @@ Untuk bagian _Artifact_ nya diubah menjadi _latihan-service_.
 Pilihlah Java Version sesuai dengan yang digunakan pada perangkat 
 (disini saya menggunakan jdk versi 17).
 ### Step 6 :
-Klik pada bagian _Dependencies_, lalu cari keyword *Spring Web*, lalu Enter. ![Screenshot (559)](https://user-images.githubusercontent.com/113502572/192134105-9ca1f7a2-9f12-4cf0-beb5-bb49fe878b9f.png)
+Klik pada bagian _Dependencies_, lalu cari keyword *Spring Web*, lalu Enter. ![Screenshot (562)](https://user-images.githubusercontent.com/113502572/192135252-143e48b3-9fd3-4076-b06a-d78e8c5c4345.png)
 ### Step 7 :
 Klik _Generate the project_ pada bagian bawah layar. File berupa zip akan terdownload secara otomatis.
 ### Step 8 :
@@ -43,7 +43,7 @@ Oke, langsung saja kita buka NetBeans IDE kemudian open project, pilih dari file
 Buat file Java Class dengan nama HelloController.java dan tulis kode seperti di bawah ini
  
 
-	 package com.ibra.latihan.service;
+	 package com.ibra.latihan2.service;
 
    	 import org.springframework.boot.SpringApplication;
   	 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -60,7 +60,7 @@ Buat file Java Class dengan nama HelloController.java dan tulis kode seperti di 
 	 }
         
          @GetMapping("/hello")
-         public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+         public String hello(@RequestParam(value = "name", defaultValue = "Latihan2") String name) {
          return String.format("Hello %s!", name);
            }
          }
