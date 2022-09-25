@@ -65,5 +65,5 @@ Buat file Java Class dengan nama HelloController.java dan tulis kode seperti di 
            }
          }
 ## Step 3 : Run!
-Jalankan dengan mengklik menu Run pilih Run Project atau tekan tombol F6 pada keyboard. Buka browser lalu masukkan url http://localhost:8080 maka akan tampil seperti gambar di bawah ini.
+Jalankan dengan mengklik menu Run pilih Run Project atau tekan tombol F6 pada keyboard. Buka browser lalu masukkan url http://localhost:8010 maka akan tampil seperti gambar di bawah ini.
 ![gambar](https://andikhermawan.files.wordpress.com/2021/07/04-1.png)
